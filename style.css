@@ -1,8 +1,6 @@
 body {
-    align-items: center;
     background-image: url(IMG_7592.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -10,16 +8,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 4px;
     height: 100vh;
 }
 #clock {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-size: 3em;
     backdrop-filter: blur(10px);
     width: 100%;
     text-align: center;
-    background-color: rgba(13, 13, 14, 0.258);
-    font-size: 5em;
-    font-style: bold;
+    background-color: rgba(255, 255, 255, 0.193);
+    font-size: 6em;
 }
